@@ -1,0 +1,66 @@
+-> In c++, we can make fast program, 
+more control over system resources, memory management.
+->High performance
+->2011,C++11
+->2014,c++14
+->2017,c++17
+---------------------------------------------------------------
+1. A variable is a container to hold data.
+2. variable can be of various types. Primarily we have these variable
+    types in C++:
+    1. int
+    2. float
+    3. char
+    4. double
+    5. boolean
+    ->int sum=34; means sum is an integer variable which holds value 34
+    in memory.
+    -->Syntax for declaring variables in C++
+        1. Data_typeVariable_name=value;
+        2. Ex.Int a=4, b=6;
+        3. Based on scope, variable can be classified into two types:
+            1. local variables.
+            2. Global variables.
+    -->variable scope
+        1. scope of a variable is the region in code where the existence of
+            variable is valid.
+        2. Based on scope we have local and Global variable in C++.
+        3. Local variables: Local variables are declared inside the braces
+            of any function and can be accessed only from there.
+        4. Global variables: Global variables are declared outside any function
+            and can be accessed from anywhere.
+        5. Can Global local variable have same name in C++?: Yes, we will see!
+    -->C++ Data types
+        1. Data types define the type of data a variable can hold, for 
+            example an integer variable can hold integer data, a character type variable can hold character data etc.
+        2. Data types in C++ are categorised in three groups:
+            1. Built-in.
+            2. User-defined.
+            3. Derived.
+--> Built in Data types in c++
+    1. Int----------->0,1,2,3,4...
+    2. float---------->1.22,1.33, decimal numbers of low precision.
+    3. char----------->'y',etc
+    4. double--------->3.8878898, decimal numbers of High precision.
+    5. bool-----------> True, false.
+-->User defined data types in C++
+    1. Struct
+    2. Union
+    3. Enum
+    Note: These will be covered separately in different videos. For 
+    now understanding that these are the user defined data types should do!.
+-->Derived data types in C++
+    1. Array
+    2. function
+    3. Pointer
+    Note: These will be covered separately in different videos. For
+    now understanding that these are the Derived defined data types 
+    should do!
+-->Rules to declare variables in C++
+    1. variable names in C++ can range from 1 to 255 characters.
+    2. All variable names must begin with a letter of the alphabet or an underscore(_).
+    3. After the first initial letter, variable names can also contain
+        letters and numbers.
+    4. variable names are case sensitive.
+    5. No spaces or special characters are allowed.
+    6. You cannot use a C++ keyword (a reserved word) as a variable name.

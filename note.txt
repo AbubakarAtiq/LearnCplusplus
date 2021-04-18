@@ -1,0 +1,6 @@
+-> In c++, we can make fast program, 
+more control over system resources, memory management.
+->High performance
+->2011,C++11
+->2014,c++14
+->2017,c++17

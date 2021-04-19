@@ -1,0 +1,15 @@
+Material written in this file, its source will be mentioned in the last of this file.
+-----------
+-->Basic Input/Output in C++
+1. C++ comes with libraries which helps us in performing input/output. In c++ sequence of bytes corresponding to input and output are commonly knowns as streams.
+2.Input stream: Direction of flow of bytes takes place from input device(for example keyboard) to the main memory.
+3. Output stream: Direction of flow of bytes takes place from main memory to the output device (for example Display)
+-->List of reserved keyboards in C++
+1. This is a list of keyboards reserved in C++.
+2. Since they are used by the language itself,these keywords are not available for re-definition or overloading.
+3. In short, you cannot create a variable with these names.
+    -->These are the following list:
+    1.alignas(since c++11)  2.alignof(since c++11)  3.and
+    4.and_eq    5.asm   6.atomic_cancel(TM TS)
+    7.atomic_commit(TM TS)  8.atomic_noexcept(TM TS)    9.auto(1)
+    10.bitand 11.bitor  12.bool     13.break    14.case     15.catch so on

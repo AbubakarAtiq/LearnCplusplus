@@ -1,5 +1,6 @@
 Material written in this file, its source will be mentioned in the last of this file.
 -----------
+open main5.cpp
 -->Basic Input/Output in C++
 1. C++ comes with libraries which helps us in performing input/output. In c++ sequence of bytes corresponding to input and output are commonly knowns as streams.
 2.Input stream: Direction of flow of bytes takes place from input device(for example keyboard) to the main memory.

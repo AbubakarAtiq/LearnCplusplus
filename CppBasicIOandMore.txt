@@ -13,3 +13,4 @@ Material written in this file, its source will be mentioned in the last of this 
     4.and_eq    5.asm   6.atomic_cancel(TM TS)
     7.atomic_commit(TM TS)  8.atomic_noexcept(TM TS)    9.auto(1)
     10.bitand 11.bitor  12.bool     13.break    14.case     15.catch so on
+https://www.youtube.com/watch?v=J05uoTbGOvQ&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=5

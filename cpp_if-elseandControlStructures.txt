@@ -1,2 +1,15 @@
 https://www.youtube.com/watch?v=AY96XFqb934&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=9
 above is the source of the code i am going to write.
+==========================================================
+In this file we will learn:
+    if-else and control structures
+->C++ control structures:
+    1.sequence structures.
+    2.selection structures.
+    3.loop structures.
+    above mentioned control structures are basic structures.
+    -->sequence structures-->entry-->action 1->action 2->exit
+    -->selection structures-->entry--->condition-(True|False)-->(action1and2)
+    -->loop structures-->entry-->condition-->loop--entry
+    -->If-else statement, if-else ladder, switch-case
+    

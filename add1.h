@@ -55,10 +55,40 @@ public:
               cout<<"Ok,Let's begin,with What is C++?"<<endl;
             
         }
+        string user_say;
+        cout<<"Will you like to learn What is C++?,(Y|N):";
+        getline(cin,user_say);
+        if((user_say=="Y")||(user_say=="y"))
+        {
+            string intro1("C++ is a general purpose,case-sensitive,free-form programming language that supports object-oriented,procedural and generic programming.C++ is a middle-level language,as it encapsulates both high and low level language features.");
+        cout<<"\t\t\t -------------------------------------------{What is C++}-------------------------------------------\t\t\t"<<endl;
+        cout<<intro1<<endl;
+        system("pause");
+        string intro2("C++ supports the object-oriented programming,the four major pillar of object oriented programming used in C++ are:");
+        string intro3("\n1.Inheritance\n2.Polymorphism\n3.Encapsulation\n4.Abstraction");
+        }
+        else if((user_say=="YES")||(user_say=="yes"))
+        {
+            string intro1("C++ is a general purpose,case-sensitive,free-form programming language that supports object-oriented,procedural and generic programming.C++ is a middle-level language,as it encapsulates both high and low level language features.");
+        cout<<"\t\t\t -------------------------------------------{What is C++}-------------------------------------------\t\t\t"<<endl;
+        cout<<intro1<<endl;
+        system("pause");
+        }
+        else if((user_say=="Y")||(user_say=="y"))
+        {
         string intro1("C++ is a general purpose,case-sensitive,free-form programming language that supports object-oriented,procedural and generic programming.C++ is a middle-level language,as it encapsulates both high and low level language features.");
         cout<<"\t\t\t -------------------------------------------{What is C++}-------------------------------------------\t\t\t"<<endl;
         cout<<intro1<<endl;
         system("pause");
+        }
+        else if((user_say=="no")||(user_say=="NO"))
+        {
+            cout<<"Jumping to"<<setw(5)<<",topic"<<endl;
+        }
+        else if((user_say=="n")||(user_say=="N"))
+        {
+            cout<<"Jumping to"<<setw(5)<<",topic"<<endl;
+        }
         string intro2("C++ supports the object-oriented programming,the four major pillar of object oriented programming used in C++ are:");
         string intro3("\n1.Inheritance\n2.Polymorphism\n3.Encapsulation\n4.Abstraction");
         string yesapproval1;

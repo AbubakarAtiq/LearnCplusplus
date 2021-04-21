@@ -14,7 +14,7 @@ class WelcomePage
         string a1;
         cout<<"Do you want to continue this program?(yes or no):";
         getline(cin,a1);
-        if (a1=="yes") {
+        if (a1=="yes"&&a1=="b") {
             cout<<"Program started again"<<endl;
             f1();
         }

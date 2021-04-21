@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<windows.h>
+#include <iomanip>
 using namespace std;
 class Welcome
 {
@@ -29,50 +30,30 @@ public:
         string yesapproval;
         cout<<"Would you like to see,C++ Overview,Type(Y/N)?:";
         getline(cin,yesapproval);
-        if(yesapproval=="Y")
+        if((yesapproval=="Y")||(yesapproval=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ Overview}-------------------------------------------\t\t\t"<<endl;
         string Intro("What is C++,C++ is an object-oriented programming language. It is an extension to C programming,");
         string Intro1("Our C++ tutorial includes all topics of C++ such as first example,control statements,objects \nand classes,inheritance,constructor,destructor,this,static,polymorphism,abstraction,abstract class,interface,namespace,encapsulation,arrays,strings,expression handling,File IO,etc.");
         cout<<Intro<<Intro1<<endl;
         }
-        else if (yesapproval=="y")
+        else if ((yesapproval=="YES")||(yesapproval=="yes"))
         {
                cout<<"\t\t\t -------------------------------------------{C++ Overview}-------------------------------------------\t\t\t"<<endl;
         string Intro("What is C++,C++ is an object-oriented programming language. It is an extension to C programming,");
         string Intro1("Our C++ tutorial includes all topics of C++ such as first example,control statements,objects \nand classes,inheritance,constructor,destructor,this,static,polymorphism,abstraction,abstract class,interface,namespace,encapsulation,arrays,strings,expression handling,File IO,etc.");
         cout<<Intro<<Intro1<<endl;
         }
-        else if (yesapproval=="yes") {
-                     cout<<"\t\t\t -------------------------------------------{C++ Overview}-------------------------------------------\t\t\t"<<endl;
-        string Intro("What is C++,C++ is an object-oriented programming language. It is an extension to C programming,");
-        string Intro1("Our C++ tutorial includes all topics of C++ such as first example,control statements,objects \nand classes,inheritance,constructor,destructor,this,static,polymorphism,abstraction,abstract class,interface,namespace,encapsulation,arrays,strings,expression handling,File IO,etc.");
-        cout<<Intro<<Intro1<<endl;
-        }
-        else if (yesapproval=="YES") {
-                 cout<<"\t\t\t -------------------------------------------{C++ Overview}-------------------------------------------\t\t\t"<<endl;
-        string Intro("What is C++,C++ is an object-oriented programming language. It is an extension to C programming,");
-        string Intro1("Our C++ tutorial includes all topics of C++ such as first example,control statements,objects \nand classes,inheritance,constructor,destructor,this,static,polymorphism,abstraction,abstract class,interface,namespace,encapsulation,arrays,strings,expression handling,File IO,etc.");
-        cout<<Intro<<Intro1<<endl;
-
-        }
-        else if (yesapproval=="no")
+        else if ((yesapproval=="no")||(yesapproval=="NO"))
         {
             cout<<"Ok,Let's begin,with What is C++?"<<endl;
             
 
         }
-        else if (yesapproval=="n")
+        else if ((yesapproval=="n")||(yesapproval=="N"))
         {
               cout<<"Ok,Let's begin,with What is C++?"<<endl;
             
-        }
-        else if(yesapproval=="N")
-        {
-            cout<<"Ok,Let's begin,with What is C++?"<<endl;
-        }
-        else if (yesapproval=="NO") {
-             cout<<"Ok,Let's begin,with What is C++?"<<endl;
         }
         string intro1("C++ is a general purpose,case-sensitive,free-form programming language that supports object-oriented,procedural and generic programming.C++ is a middle-level language,as it encapsulates both high and low level language features.");
         cout<<"\t\t\t -------------------------------------------{What is C++}-------------------------------------------\t\t\t"<<endl;
@@ -83,89 +64,51 @@ public:
         string yesapproval1;
         cout<<"Would you like to see Object-Oriented Programming(OOPs),Type(Y/N):";
         getline(cin,yesapproval1);
-        if(yesapproval1=="Y")
+        if((yesapproval1=="Y")||(yesapproval=="y"))
         {
 
         cout<<"\t\t\t -------------------------------------------{Object-Oriented Programming (OOPs)}-------------------------------------------\t\t\t"<<endl;
         cout<<intro2<<intro3<<endl;
         system("pause");
         }
-        else if (yesapproval1=="y")
+        else if ((yesapproval1=="yes")||(yesapproval=="YES"))
         {
              cout<<"\t\t\t -------------------------------------------{Object-Oriented Programming (OOPs)}-------------------------------------------\t\t\t"<<endl;
         cout<<intro2<<intro3<<endl;
         system("pause");
 
         }
-        else if (yesapproval1=="YES") {
-         cout<<"\t\t\t -------------------------------------------{Object-Oriented Programming (OOPs)}-------------------------------------------\t\t\t"<<endl;
-        cout<<intro2<<intro3<<endl;
-        system("pause");
-        }
-        else if (yesapproval1=="yes")
-        {
-             cout<<"\t\t\t -------------------------------------------{Object-Oriented Programming (OOPs)}-------------------------------------------\t\t\t"<<endl;
-        cout<<intro2<<intro3<<endl;
-        system("pause");
-        }
-        else if(yesapproval1=="N")
+        else if((yesapproval1=="N")||(yesapproval=="n"))
         {
             cout<<"Jumping to next topic"<<endl;
         }
-        else if(yesapproval1=="n")
+        else if((yesapproval1=="no")||(yesapproval1=="NO"))
         {
              cout<<"Jumping to next topic"<<endl;
 
-        }
-        else if(yesapproval1=="NO")
-        {
-             cout<<"Jumping to next topic"<<endl;
-        }
-        else if (yesapproval1=="no") {
-         cout<<"Jumping to next topic"<<endl;
         }
         string stlibraries("Standard C++ programming is divided into three important parts:");
         string stlibraries1("\n->The core library includes the data types, variables and literals,etc.\n->The standard library includes the set of functions manipulating strings,files,etc.\n->The Standard Template Library (STL)includes the set of methods manipulating a data structures.");
         string yesapproval2;
         cout<<"Would you like to see C++ Standard Libraries?,Type(Y/N),";
         getline(cin,yesapproval2);
-        if(yesapproval2=="Y")
+        if((yesapproval2=="Y")||(yesapproval2=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ Standard Libraries}-------------------------------------------\t\t\t"<<endl;
         cout<<stlibraries<<stlibraries1<<endl;
         system("pause");
         }
-        else if(yesapproval2=="YES")
+        else if((yesapproval2=="YES")||(yesapproval2=="yes"))
         {
              cout<<"\t\t\t -------------------------------------------{C++ Standard Libraries}-------------------------------------------\t\t\t"<<endl;
         cout<<stlibraries<<stlibraries1<<endl;
         system("pause");
         }
-        else if(yesapproval2=="yes")
-        {
-             cout<<"\t\t\t -------------------------------------------{C++ Standard Libraries}-------------------------------------------\t\t\t"<<endl;
-        cout<<stlibraries<<stlibraries1<<endl;
-        system("pause");
-        }
-        else if(yesapproval2=="y")
-        {
-             cout<<"\t\t\t -------------------------------------------{C++ Standard Libraries}-------------------------------------------\t\t\t"<<endl;
-        cout<<stlibraries<<stlibraries1<<endl;
-        system("pause");
-        }
-        else if(yesapproval2=="N")
+        else if((yesapproval2=="N")||(yesapproval2=="n"))
         {
             cout<<endl;
         }
-        else if(yesapproval2=="NO")
-        {
-            cout<<endl;
-        }
-        else if(yesapproval2=="no")
-        {
-            cout<<endl;
-        }
-        else if(yesapproval2=="n")
+        else if((yesapproval2=="NO")||(yesapproval2=="no"))
         {
             cout<<endl;
         }
@@ -173,92 +116,51 @@ public:
         string yesapproval3;
         cout<<"Would you like to see usage of C++?,Type(Y/N):";
         getline(cin,yesapproval3);
-        if(yesapproval3=="Y")
+        if((yesapproval3=="Y")||(yesapproval3=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
         string usageofcpp("By the help of C++ programming language,we can develop different types of secured and robust applications:\n1.Windows application\n2.Client-Server application\n3.Device drivers\n4.Embedded firmware,etc.");
         cout<<usageofcpp<<endl;
         system("pause");
         }
-        else if(yesapproval3=="YES")
+        else if((yesapproval3=="YES")||(yesapproval3=="yes"))
         {
              cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
         string usageofcpp("By the help of C++ programming language,we can develop different types of secured and robust applications:\n1.Windows application\n2.Client-Server application\n3.Device drivers\n4.Embedded firmware,etc.");
         cout<<usageofcpp<<endl;
         system("pause");
         }
-        else if(yesapproval3=="y")
+        else if((yesapproval3=="y")||(yesapproval3=="Y"))
         {
              cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
         string usageofcpp("By the help of C++ programming language,we can develop different types of secured and robust applications:\n1.Windows application\n2.Client-Server application\n3.Device drivers\n4.Embedded firmware,etc.");
         cout<<usageofcpp<<endl;
         system("pause");
         }
-        else if(yesapproval3=="yes")
-        {
-             cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
-        string usageofcpp("By the help of C++ programming language,we can develop different types of secured and robust applications:\n1.Windows application\n2.Client-Server application\n3.Device drivers\n4.Embedded firmware,etc.");
-        cout<<usageofcpp<<endl;
-        system("pause");
-        }
-        else if(yesapproval3=="NO")
+        else if((yesapproval3=="NO")||(yesapproval3=="no"))
         {
             string a;
             cout<<"As you wish,"<<a<<endl;
         }
-        else if(yesapproval3=="N")
-        {
-            string a;
-            cout<<"As you wish,"<<a<<endl;
-        }
-        else if(yesapproval3=="n")
-        {
-            string a;
-            cout<<"As you wish,"<<a<<endl;
-        }
-        else if(yesapproval3=="no")
-        {
-            string a;
-            cout<<"As you wish,"<<a<<endl;
-        }
-
         string Cdiffer("1.follows the procedural style programming and C++ is multi-paradigm.It supports both procedural and object oriented.\n2.Data is C++,you can use modifiers for class members to make it inaccessible for outside users.\n3.C follows the top-down approach and C++ follows the bottom-up approach.\n4.Support function overloading and C++ supports function overloading.\n5.In C,you can't use structure and In C++,you can use functions in structure.\n6.C does not support reference variables and C++ supports reference variables.\n7.In C,scanf() and  printf() are mainly used for input/output and C++ mainly uses stream cin and cout to perform input and ouput operations.\n8.Operator overloading is not possible in C and Operator overloading is possible in C++.\n9.C programs are divided into procedures and modules and C++ programs are divided into functions and classes.\n10.C does not provide the feature of namespace and C++ supports the feature of namespace.\n11.Exception handling is not easy in C.It has to perform using other functions and C++ provides exception handling using Try and Catch block.");
         string yesapproval4;
         cout<<"Would you like to open C VS C++ string?Type(Y|N):";
         getline(cin,yesapproval4);
-        if(yesapproval=="Y")
+        if((yesapproval1=="Y")||(yesapproval1=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C Vs C++}-------------------------------------------\t\t\t"<<endl;
         cout<<Cdiffer<<endl;
         }
-        else if(yesapproval4=="YES")
+        else if((yesapproval4=="YES")||(yesapproval4=="yes"))
         {
              cout<<"\t\t\t -------------------------------------------{C Vs C++}-------------------------------------------\t\t\t"<<endl;
         cout<<Cdiffer<<endl;
         }
-        else if(yesapproval4=="y")
-        {
-             cout<<"\t\t\t -------------------------------------------{C Vs C++}-------------------------------------------\t\t\t"<<endl;
-        cout<<Cdiffer<<endl;
-        }
-        else if(yesapproval4=="yes")
-        {
-             cout<<"\t\t\t -------------------------------------------{C Vs C++}-------------------------------------------\t\t\t"<<endl;
-        cout<<Cdiffer<<endl;
-        }
-        else if(yesapproval4=="N")
+        else if((yesapproval4=="N")||(yesapproval4=="n"))
         {
             cout<<endl;
         }
-        else if(yesapproval4=="NO")
-        {
-             cout<<endl;
-        }
-        else if(yesapproval4=="n")
-        {
-             cout<<endl;
-        }
-        else if(yesapproval4=="no")
+        else if((yesapproval4=="NO")||(yesapproval4=="no"))
         {
              cout<<endl;
         }
@@ -267,43 +169,23 @@ public:
         string yesapproval5;
         cout<<"Would you like to see the C++ History,"<<a<<",Type(Y|N):";
         getline(cin,yesapproval5);
-        if(yesapproval5=="Y")
+        if((yesapproval5=="Y")||(yesapproval5=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ History}-------------------------------------------\t\t\t"<<endl;
         cout<<cpphistory<<cpphistory1<<endl;
         system("pause");
         }
-        else if(yesapproval5=="YES")
+        else if((yesapproval5=="YES")||(yesapproval5=="yes"))
         {
             cout<<"\t\t\t -------------------------------------------{C++ History}-------------------------------------------\t\t\t"<<endl;
         cout<<cpphistory<<cpphistory1<<endl;
         system("pause");
         }
-        else if(yesapproval5=="y")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ History}-------------------------------------------\t\t\t"<<endl;
-        cout<<cpphistory<<cpphistory1<<endl;
-        system("pause");
-        }
-        else if(yesapproval5=="yes")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ History}-------------------------------------------\t\t\t"<<endl;
-        cout<<cpphistory<<cpphistory1<<endl;
-        system("pause");
-        }
-        else if(yesapproval5=="N")
+        else if((yesapproval5=="N")||(yesapproval5=="n"))
         {
             cout<<endl;
         }
-        else if(yesapproval5=="NO")
-        {
-            cout<<endl;
-        }
-        else if(yesapproval5=="n")
-        {
-            cout<<endl;
-        }
-        else if(yesapproval5=="no")
+        else if((yesapproval5=="NO")||(yesapproval5=="no"))
         {
             cout<<endl;
         }
@@ -312,50 +194,30 @@ public:
         string ya6;//ya6 stands for yes approved
         cout<<"Would you like to see the C++ Features?Type(Y|N):";
         getline(cin,ya6);
-        if(ya6=="Y")
+        if((ya6=="Y")||(ya6=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ Features}-------------------------------------------\t\t\t"<<endl;
         cout<<cppfeatures<<cppfeatures1<<endl;
         system("pause");
         }
-        else if(ya6=="YES")
+        else if((ya6=="YES")||(ya6=="yes"))
         {
                     cout<<"\t\t\t -------------------------------------------{C++ Features}-------------------------------------------\t\t\t"<<endl;
         cout<<cppfeatures<<cppfeatures1<<endl;
         system("pause");
         }
-        else if(ya6=="y")
-        {
-                    cout<<"\t\t\t -------------------------------------------{C++ Features}-------------------------------------------\t\t\t"<<endl;
-        cout<<cppfeatures<<cppfeatures1<<endl;
-        system("pause");
-        }
-        else if(ya6=="yes")
-        {
-                    cout<<"\t\t\t -------------------------------------------{C++ Features}-------------------------------------------\t\t\t"<<endl;
-        cout<<cppfeatures<<cppfeatures1<<endl;
-        system("pause");
-        }
-        else if(ya6=="N")
+        else if((ya6=="N")||(ya6=="n"))
         {
             cout<<endl;
         }
-        else if(ya6=="NO")
-        {
-            cout<<endl;
-        }
-        else if(ya6=="n")
-        {
-            cout<<endl;
-        }
-        else if(ya6=="no")
+        else if((ya6=="NO")||(ya6=="no"))
         {
             cout<<endl;
         }
         string ya7;
         cout<<"Would you like to see C++ basic-I/O?Type(Y|N)";
         getline(cin,ya7);
-        if(ya7=="Y")
+        if((ya7=="Y")||(ya6=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ Basic Input/Output}-------------------------------------------\t\t\t"<<endl;
         string cppbasic("C++I/O operation is using the stream concept.Stream is thee sequence of bytes or flow of data.It makes the performance fast.\nIf bytes flow from main memory to device like printer,display screen,or a network connection,etc,this is called as output operation.\nIf bytes flow from device like printer,display screen,or a network connection,etc to main memory,this is called as input operation.\n\nI/O Library Header Files\nLet us see the common header files used in C++ programming are:\nHeader\t\t\tFunction and description\n<iostream>\t\tIt is used to define the cout,cin and cerr objects,which correspond to standard output stream,standard input stream and standard error stream,respectively\n<iomainip>\t\tIt is used to declare services useful for performing formatted I/O,such as setprecision and setw.\n<fstream>\t\tIt is used to declare services for user-controlled file processing.");
@@ -363,11 +225,6 @@ public:
         system("pause");
         cout<<"STANDARD OUTPUT STREAM(COUT)"<<endl;
         string cppbasic1("The cout is a predefined object of ostream class.It is connected with the standard output device,which is usually a display screen.\nThe cout is used in conjunction with stream insertion operator(<<)to display the output on a console\n\nLet's see the simple example of standard output stream(cout):\n\n#include<iostream>\nusing namespace std;\nint main(){\nstring");
-
-
-
-
-
         cout<<cppbasic1<<endl;
         system("pause");
         cout<<"STANDARD INPUT STREAM(CIN)"<<endl;
@@ -379,7 +236,7 @@ public:
         cout<<cppbasic3<<endl;
         system("pause");
         }
-        else if(ya7=="YES")
+        else if((ya7=="YES")||(ya7=="yes"))
         {
             cout<<"\t\t\t -------------------------------------------{C++ Basic Input/Output}-------------------------------------------\t\t\t"<<endl;
         string cppbasic("C++I/O operation is using the stream concept.Stream is thee sequence of bytes or flow of data.It makes the performance fast.\nIf bytes flow from main memory to device like printer,display screen,or a network connection,etc,this is called as output operation.\nIf bytes flow from device like printer,display screen,or a network connection,etc to main memory,this is called as input operation.\n\nI/O Library Header Files\nLet us see the common header files used in C++ programming are:\nHeader\t\t\tFunction and description\n<iostream>\t\tIt is used to define the cout,cin and cerr objects,which correspond to standard output stream,standard input stream and standard error stream,respectively\n<iomainip>\t\tIt is used to declare services useful for performing formatted I/O,such as setprecision and setw.\n<fstream>\t\tIt is used to declare services for user-controlled file processing.");
@@ -387,11 +244,6 @@ public:
         system("pause");
         cout<<"STANDARD OUTPUT STREAM(COUT)"<<endl;
         string cppbasic1("The cout is a predefined object of ostream class.It is connected with the standard output device,which is usually a display screen.\nThe cout is used in conjunction with stream insertion operator(<<)to display the output on a console\n\nLet's see the simple example of standard output stream(cout):\n\n#include<iostream>\nusing namespace std;\nint main(){\nstring");
-
-
-
-
-
         cout<<cppbasic1<<endl;
         system("pause");
         cout<<"STANDARD INPUT STREAM(CIN)"<<endl;
@@ -403,74 +255,18 @@ public:
         cout<<cppbasic3<<endl;
         system("pause");
         }
-        else if(ya7=="y")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ Basic Input/Output}-------------------------------------------\t\t\t"<<endl;
-        string cppbasic("C++I/O operation is using the stream concept.Stream is thee sequence of bytes or flow of data.It makes the performance fast.\nIf bytes flow from main memory to device like printer,display screen,or a network connection,etc,this is called as output operation.\nIf bytes flow from device like printer,display screen,or a network connection,etc to main memory,this is called as input operation.\n\nI/O Library Header Files\nLet us see the common header files used in C++ programming are:\nHeader\t\t\tFunction and description\n<iostream>\t\tIt is used to define the cout,cin and cerr objects,which correspond to standard output stream,standard input stream and standard error stream,respectively\n<iomainip>\t\tIt is used to declare services useful for performing formatted I/O,such as setprecision and setw.\n<fstream>\t\tIt is used to declare services for user-controlled file processing.");
-        cout<<cppbasic<<endl;
-        system("pause");
-        cout<<"STANDARD OUTPUT STREAM(COUT)"<<endl;
-        string cppbasic1("The cout is a predefined object of ostream class.It is connected with the standard output device,which is usually a display screen.\nThe cout is used in conjunction with stream insertion operator(<<)to display the output on a console\n\nLet's see the simple example of standard output stream(cout):\n\n#include<iostream>\nusing namespace std;\nint main(){\nstring");
-
-
-
-
-
-        cout<<cppbasic1<<endl;
-        system("pause");
-        cout<<"STANDARD INPUT STREAM(CIN)"<<endl;
-        string cppbasic2("\nThe cin is a predefined object of istream class.It is connected with the standard input device,which is usually a keyword.\nThe cin is used in conjuction with stream extraction operator(>>)to read the input from a console.\n\nLet's see the simple example of standard input stream(cin):\n#include<iostream>\nusing namespace std;\nint main(){\nint age;\ncout<<''Enter your age: '';\ncin>>age;\ncout<<''Your age is: ''<<age<<endl;\n}\nOutput:Enter your age:Entered age\nYour age:(?)");
-        cout<<cppbasic2<<endl;
-        system("pause");
-        cout<<"STANDARD END LINE(endl)"<<endl;
-        string cppbasic3("\nThe endl is a predefined onject of ostream class.It is used to insert a new line stringacters and flushes the stream.\n\nLet's see the simple example of standard end line(endl):\n#include<iostream>\nusing namespace std;\nint main(){\n\tcout<<''C++ Tutorial'';\n\tcout<<''Javapoint''<<endl;\n\tcout<<''End of line''<<endl;\n}\n\tOutput:\n\tC++ Tutorial Java point\n\tEnd of line");
-        cout<<cppbasic3<<endl;
-        system("pause");
-        }
-        else if(ya7=="yes")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ Basic Input/Output}-------------------------------------------\t\t\t"<<endl;
-        string cppbasic("C++I/O operation is using the stream concept.Stream is thee sequence of bytes or flow of data.It makes the performance fast.\nIf bytes flow from main memory to device like printer,display screen,or a network connection,etc,this is called as output operation.\nIf bytes flow from device like printer,display screen,or a network connection,etc to main memory,this is called as input operation.\n\nI/O Library Header Files\nLet us see the common header files used in C++ programming are:\nHeader\t\t\tFunction and description\n<iostream>\t\tIt is used to define the cout,cin and cerr objects,which correspond to standard output stream,standard input stream and standard error stream,respectively\n<iomainip>\t\tIt is used to declare services useful for performing formatted I/O,such as setprecision and setw.\n<fstream>\t\tIt is used to declare services for user-controlled file processing.");
-        cout<<cppbasic<<endl;
-        system("pause");
-        cout<<"STANDARD OUTPUT STREAM(COUT)"<<endl;
-        string cppbasic1("The cout is a predefined object of ostream class.It is connected with the standard output device,which is usually a display screen.\nThe cout is used in conjunction with stream insertion operator(<<)to display the output on a console\n\nLet's see the simple example of standard output stream(cout):\n\n#include<iostream>\nusing namespace std;\nint main(){\nstring");
-
-
-
-
-
-        cout<<cppbasic1<<endl;
-        system("pause");
-        cout<<"STANDARD INPUT STREAM(CIN)"<<endl;
-        string cppbasic2("\nThe cin is a predefined object of istream class.It is connected with the standard input device,which is usually a keyword.\nThe cin is used in conjuction with stream extraction operator(>>)to read the input from a console.\n\nLet's see the simple example of standard input stream(cin):\n#include<iostream>\nusing namespace std;\nint main(){\nint age;\ncout<<''Enter your age: '';\ncin>>age;\ncout<<''Your age is: ''<<age<<endl;\n}\nOutput:Enter your age:Entered age\nYour age:(?)");
-        cout<<cppbasic2<<endl;
-        system("pause");
-        cout<<"STANDARD END LINE(endl)"<<endl;
-        string cppbasic3("\nThe endl is a predefined onject of ostream class.It is used to insert a new line stringacters and flushes the stream.\n\nLet's see the simple example of standard end line(endl):\n#include<iostream>\nusing namespace std;\nint main(){\n\tcout<<''C++ Tutorial'';\n\tcout<<''Javapoint''<<endl;\n\tcout<<''End of line''<<endl;\n}\n\tOutput:\n\tC++ Tutorial Java point\n\tEnd of line");
-        cout<<cppbasic3<<endl;
-        system("pause");
-        }
-        else if(ya7=="N")
+        else if((ya7=="N")||(ya7=="n"))
         {
             cout<<endl;
         }
-        else if(ya7=="NO")
-        {
-            cout<<endl;
-        }
-        else if(ya7=="n")
-        {
-            cout<<endl;
-        }
-        else if(ya7=="no")
+        else if((ya7=="NO")||(ya7=="no"))
         {
             cout<<endl;
         }
         string ya8;
         cout<<"Would you like to see C++ variables?Type(Y|N):";
         getline(cin,ya8);
-        if(ya8=="Y")
+        if((ya8=="Y")||(ya8=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ Variables}-------------------------------------------\t\t\t"<<endl;
         string cppvariable("C++ Variable:\nA variables is a name of memory location.It is used to store data.Its value can be changed and it can be reused many times.\nIt is a way to represent memory location through symbol so that it can be easily identified.\nLet's see the syntax to declare a variable:\n\ttype variable_list;\n\nThe example of declaring variable is given below:\n\tint x;\n\tfloat y;\n\tstring z;\nHere x,y,z are variables and int,float,string are data types.\n\nWe can also provide values while declaring the variables as given below:\n\tint x=5,b=10;//declaring 2 variables of integer type\n\tfloat f=30.8;\n\tstring c='A';");
@@ -479,7 +275,7 @@ public:
         cout<<cppvariable1<<endl;
         system("pause");
         }
-        else if(ya8=="YES")
+        else if((ya8=="YES")||(ya8=="yes"))
         {
             cout<<"\t\t\t -------------------------------------------{C++ Variables}-------------------------------------------\t\t\t"<<endl;
         string cppvariable("C++ Variable:\nA variables is a name of memory location.It is used to store data.Its value can be changed and it can be reused many times.\nIt is a way to represent memory location through symbol so that it can be easily identified.\nLet's see the syntax to declare a variable:\n\ttype variable_list;\n\nThe example of declaring variable is given below:\n\tint x;\n\tfloat y;\n\tstring z;\nHere x,y,z are variables and int,float,string are data types.\n\nWe can also provide values while declaring the variables as given below:\n\tint x=5,b=10;//declaring 2 variables of integer type\n\tfloat f=30.8;\n\tstring c='A';");
@@ -488,37 +284,11 @@ public:
         cout<<cppvariable1<<endl;
         system("pause");
         }
-        else if(ya8=="y")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ Variables}-------------------------------------------\t\t\t"<<endl;
-        string cppvariable("C++ Variable:\nA variables is a name of memory location.It is used to store data.Its value can be changed and it can be reused many times.\nIt is a way to represent memory location through symbol so that it can be easily identified.\nLet's see the syntax to declare a variable:\n\ttype variable_list;\n\nThe example of declaring variable is given below:\n\tint x;\n\tfloat y;\n\tstring z;\nHere x,y,z are variables and int,float,string are data types.\n\nWe can also provide values while declaring the variables as given below:\n\tint x=5,b=10;//declaring 2 variables of integer type\n\tfloat f=30.8;\n\tstring c='A';");
-        cout<<cppvariable<<endl;
-        string cppvariable1("Rules for defining variables:\nA variable can have alphabets,digits and underscore.\nA variable name can start with alphabet and underscore only.It can't start with digit.\nNo white space is allowed within variable name.\nA variable name must not be any reserved word or keyword e.g.string,float etc.\n\tValid variable names:\n\tint a;\n\tint_ab;\n\tint a30;\n\tInvalid variable names:\n\tint 4;\n\tint x y;\n\tint double;");
-        cout<<cppvariable1<<endl;
-        system("pause");
-        }
-        else if(ya8=="yes")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ Variables}-------------------------------------------\t\t\t"<<endl;
-        string cppvariable("C++ Variable:\nA variables is a name of memory location.It is used to store data.Its value can be changed and it can be reused many times.\nIt is a way to represent memory location through symbol so that it can be easily identified.\nLet's see the syntax to declare a variable:\n\ttype variable_list;\n\nThe example of declaring variable is given below:\n\tint x;\n\tfloat y;\n\tstring z;\nHere x,y,z are variables and int,float,string are data types.\n\nWe can also provide values while declaring the variables as given below:\n\tint x=5,b=10;//declaring 2 variables of integer type\n\tfloat f=30.8;\n\tstring c='A';");
-        cout<<cppvariable<<endl;
-        string cppvariable1("Rules for defining variables:\nA variable can have alphabets,digits and underscore.\nA variable name can start with alphabet and underscore only.It can't start with digit.\nNo white space is allowed within variable name.\nA variable name must not be any reserved word or keyword e.g.string,float etc.\n\tValid variable names:\n\tint a;\n\tint_ab;\n\tint a30;\n\tInvalid variable names:\n\tint 4;\n\tint x y;\n\tint double;");
-        cout<<cppvariable1<<endl;
-        system("pause");
-        }
-        else if(ya8=="N")
+        else if((ya8=="N")||(ya8=="n"))
         {
             cout<<endl;
         }
-        else if(ya8=="NO")
-        {
-            cout<<endl;
-        }
-        else if(ya8=="n")
-        {
-            cout<<endl;
-        }
-        else if(ya8=="no")
+        else if((ya8=="NO")||(ya8=="no"))
         {
             cout<<endl;
         }
@@ -528,91 +298,50 @@ public:
         string ya9;
         cout<<"Would you like to see C++ Data types?Type(Y|N):";
         getline(cin,ya9);
-        if(ya9=="Y")
+        if((ya9=="Y")||(ya9=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ DATA TYPES}-------------------------------------------\t\t\t"<<endl;
         cout<<cppdatatype<<cppdatatype1<<cppdatatype2<<endl;
         system("pause");
         }
-        else if(ya9=="YES")
+        else if((ya9=="YES")||(ya9=="yes"))
         {
             cout<<"\t\t\t -------------------------------------------{C++ DATA TYPES}-------------------------------------------\t\t\t"<<endl;
         cout<<cppdatatype<<cppdatatype1<<cppdatatype2<<endl;
         system("pause");
         }
-        else if(ya9=="y")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ DATA TYPES}-------------------------------------------\t\t\t"<<endl;
-        cout<<cppdatatype<<cppdatatype1<<cppdatatype2<<endl;
-        system("pause");
-        }
-        else if(ya9=="yes")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ DATA TYPES}-------------------------------------------\t\t\t"<<endl;
-        cout<<cppdatatype<<cppdatatype1<<cppdatatype2<<endl;
-        system("pause");
-        }
-        else if(ya9=="N")
+        else if((ya9=="N")||(ya9=="n"))
         {
             cout<<endl;
         }
-        else if(ya9=="NO")
+        else if((ya9=="NO")||(ya9=="no"))
         {
             cout<<endl;
-        }
-        else if(ya9=="n")
-        {
-            cout<<endl;
-        }
-        else if (ya9=="no") {
-        cout<<endl;
         }
         string cppkeyword("C++ Keywords\n\nA keyword is a reserved word.You cannot use it as a variable name,constant name etc.\nA list of 32 keywords in C++ Language which are also available in C language are given below.");
         string cppkeyword1("\nauto\tbreak\tcase\nstring\nconst\tcontinue\tdefault\tdo\ndouble\telse\trenum\textern\nfloat\tfor\tgoto\tif\nint\tlong\tregister\treturn\nshort\tsigned\tsizeof\tstatic\nstruct\tswitch\ttypedef\tunion\nunsigned\tvoid\tvolatile\twhile");
         string ya10;
         cout<<"Would you like to see C++ Keywords?Type(Y|N):";
         getline(cin,ya10);
-        if(ya10=="Y")
+        if((ya10=="Y")||(ya10=="y"))
         {
         cout<<"\t\t\t -------------------------------------------{C++ Keywords}-------------------------------------------\t\t\t"<<endl;
         string cppkeyword2("\nA list of 30 Keywords in C++ Language which are not available in C Language are given below:\ndynamic_cast\t\tnamespace\t\treinterpret_cast\nexplicit\t\tnew\t\ttemplate\t\tfriend\noperator\t\tstatic_cast\nthis\t\tinline\t\tpublic\nthrow\t\tprivate\t\tfalse\ndelete\t\tmutable\t\tprotected\ntypeid\t\ttypename\t\tusing\nwstring_t\t\ttry\t\tconst_cast\nbool\t\tclass\t\tcatch\nasm\t\tvirtual\t\ttrue");
-        cout<<cppkeyword<<cppkeyword1<<cppkeyword2<<endl;
+        cout<<cppkeyword<<setw(5)<<cppkeyword1<<setw(5)<<cppkeyword2<<endl;
         system("pause");
         }
-        else if(ya10=="YES")
+        else if((ya10=="YES")||(ya10=="yes"))
         {
             cout<<"\t\t\t -------------------------------------------{C++ Keywords}-------------------------------------------\t\t\t"<<endl;
         string cppkeyword2("\nA list of 30 Keywords in C++ Language which are not available in C Language are given below:\ndynamic_cast\t\tnamespace\t\treinterpret_cast\nexplicit\t\tnew\t\ttemplate\t\tfriend\noperator\t\tstatic_cast\nthis\t\tinline\t\tpublic\nthrow\t\tprivate\t\tfalse\ndelete\t\tmutable\t\tprotected\ntypeid\t\ttypename\t\tusing\nwstring_t\t\ttry\t\tconst_cast\nbool\t\tclass\t\tcatch\nasm\t\tvirtual\t\ttrue");
         cout<<cppkeyword<<cppkeyword1<<cppkeyword2<<endl;
         system("pause");
         }
-        else if(ya10=="y")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ Keywords}-------------------------------------------\t\t\t"<<endl;
-        string cppkeyword2("\nA list of 30 Keywords in C++ Language which are not available in C Language are given below:\ndynamic_cast\t\tnamespace\t\treinterpret_cast\nexplicit\t\tnew\t\ttemplate\t\tfriend\noperator\t\tstatic_cast\nthis\t\tinline\t\tpublic\nthrow\t\tprivate\t\tfalse\ndelete\t\tmutable\t\tprotected\ntypeid\t\ttypename\t\tusing\nwstring_t\t\ttry\t\tconst_cast\nbool\t\tclass\t\tcatch\nasm\t\tvirtual\t\ttrue");
-        cout<<cppkeyword<<cppkeyword1<<cppkeyword2<<endl;
-        system("pause");
-        }
-        else if(ya10=="yes")
-        {
-            cout<<"\t\t\t -------------------------------------------{C++ Keywords}-------------------------------------------\t\t\t"<<endl;
-        string cppkeyword2("\nA list of 30 Keywords in C++ Language which are not available in C Language are given below:\ndynamic_cast\t\tnamespace\t\treinterpret_cast\nexplicit\t\tnew\t\ttemplate\t\tfriend\noperator\t\tstatic_cast\nthis\t\tinline\t\tpublic\nthrow\t\tprivate\t\tfalse\ndelete\t\tmutable\t\tprotected\ntypeid\t\ttypename\t\tusing\nwstring_t\t\ttry\t\tconst_cast\nbool\t\tclass\t\tcatch\nasm\t\tvirtual\t\ttrue");
-        cout<<cppkeyword<<cppkeyword1<<cppkeyword2<<endl;
-        system("pause");
-        }
-        else if(ya10=="N")
+        else if((ya10=="N")||(ya10=="n"))
         {
             cout<<endl;
         }
-        else if(ya10=="NO")
-        {
-            cout<<"BYE"<<endl;
-        }
-        else if(ya10=="n")
-        {
-            cout<<"BYE"<<endl;
-        }
-        else if(ya10=="no")
+        else if((ya10=="NO")||(ya10=="no"))
         {
             cout<<"BYE"<<endl;
         }

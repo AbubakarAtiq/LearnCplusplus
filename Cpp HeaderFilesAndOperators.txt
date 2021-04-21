@@ -1,0 +1,6 @@
+main6.cpp belongs to this topic.
+/*
+    You can use this website for cpp reference.
+    https://en.cppreference.com/w/
+    https://www.youtube.com/watch?v=7D5A5ZMKRWw&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=6
+*/

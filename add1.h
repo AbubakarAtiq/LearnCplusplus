@@ -8,7 +8,7 @@ class Welcome
 public:
     void Introduction()
     {
-    std::cout<<"        Hello, Welcome to  C++ Tutorials"<<std::endl;
+    std::cout<<"Hello, Welcome to  C++ Tutorials"<<std::endl;
     }
     void displayMessage()
     {
@@ -26,7 +26,6 @@ public:
         system("cmd start /i");
         cout<<"I hope you like it,"<<a<<endl;k*/
         //system("start www.youtube.com");
-
         string yesapproval;
         cout<<"Would you like to see,C++ Overview,Type(Y/N)?:";
         getline(cin,yesapproval);
@@ -39,7 +38,7 @@ public:
         }
         else if ((yesapproval=="YES")||(yesapproval=="yes"))
         {
-               cout<<"\t\t\t -------------------------------------------{C++ Overview}-------------------------------------------\t\t\t"<<endl;
+            cout<<"\t\t\t -------------------------------------------{C++ Overview}-------------------------------------------\t\t\t"<<endl;
         string Intro("What is C++,C++ is an object-oriented programming language. It is an extension to C programming,");
         string Intro1("Our C++ tutorial includes all topics of C++ such as first example,control statements,objects \nand classes,inheritance,constructor,destructor,this,static,polymorphism,abstraction,abstract class,interface,namespace,encapsulation,arrays,strings,expression handling,File IO,etc.");
         cout<<Intro<<Intro1<<endl;
@@ -47,13 +46,10 @@ public:
         else if ((yesapproval=="no")||(yesapproval=="NO"))
         {
             cout<<"Ok,Let's begin,with What is C++?"<<endl;
-            
-
         }
         else if ((yesapproval=="n")||(yesapproval=="N"))
         {
               cout<<"Ok,Let's begin,with What is C++?"<<endl;
-            
         }
         string user_say;
         cout<<"Will you like to learn What is C++?,(Y|N):";
@@ -96,7 +92,6 @@ public:
         getline(cin,yesapproval1);
         if((yesapproval1=="Y")||(yesapproval=="y"))
         {
-
         cout<<"\t\t\t -------------------------------------------{Object-Oriented Programming (OOPs)}-------------------------------------------\t\t\t"<<endl;
         cout<<intro2<<intro3<<endl;
         system("pause");
@@ -106,7 +101,6 @@ public:
              cout<<"\t\t\t -------------------------------------------{Object-Oriented Programming (OOPs)}-------------------------------------------\t\t\t"<<endl;
         cout<<intro2<<intro3<<endl;
         system("pause");
-
         }
         else if((yesapproval1=="N")||(yesapproval=="n"))
         {
@@ -115,7 +109,6 @@ public:
         else if((yesapproval1=="no")||(yesapproval1=="NO"))
         {
              cout<<"Jumping to next topic"<<endl;
-
         }
         string stlibraries("Standard C++ programming is divided into three important parts:");
         string stlibraries1("\n->The core library includes the data types, variables and literals,etc.\n->The standard library includes the set of functions manipulating strings,files,etc.\n->The Standard Template Library (STL)includes the set of methods manipulating a data structures.");
@@ -130,7 +123,7 @@ public:
         }
         else if((yesapproval2=="YES")||(yesapproval2=="yes"))
         {
-             cout<<"\t\t\t -------------------------------------------{C++ Standard Libraries}-------------------------------------------\t\t\t"<<endl;
+            cout<<"\t\t\t -------------------------------------------{C++ Standard Libraries}-------------------------------------------\t\t\t"<<endl;
         cout<<stlibraries<<stlibraries1<<endl;
         system("pause");
         }
@@ -155,14 +148,14 @@ public:
         }
         else if((yesapproval3=="YES")||(yesapproval3=="yes"))
         {
-             cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
+            cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
         string usageofcpp("By the help of C++ programming language,we can develop different types of secured and robust applications:\n1.Windows application\n2.Client-Server application\n3.Device drivers\n4.Embedded firmware,etc.");
         cout<<usageofcpp<<endl;
         system("pause");
         }
         else if((yesapproval3=="y")||(yesapproval3=="Y"))
         {
-             cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
+            cout<<"\t\t\t -------------------------------------------{Usage of C++}-------------------------------------------\t\t\t"<<endl;
         string usageofcpp("By the help of C++ programming language,we can develop different types of secured and robust applications:\n1.Windows application\n2.Client-Server application\n3.Device drivers\n4.Embedded firmware,etc.");
         cout<<usageofcpp<<endl;
         system("pause");
@@ -183,7 +176,7 @@ public:
         }
         else if((yesapproval4=="YES")||(yesapproval4=="yes"))
         {
-             cout<<"\t\t\t -------------------------------------------{C Vs C++}-------------------------------------------\t\t\t"<<endl;
+        cout<<"\t\t\t -------------------------------------------{C Vs C++}-------------------------------------------\t\t\t"<<endl;
         cout<<Cdiffer<<endl;
         }
         else if((yesapproval4=="N")||(yesapproval4=="n"))
@@ -232,7 +225,7 @@ public:
         }
         else if((ya6=="YES")||(ya6=="yes"))
         {
-                    cout<<"\t\t\t -------------------------------------------{C++ Features}-------------------------------------------\t\t\t"<<endl;
+            cout<<"\t\t\t -------------------------------------------{C++ Features}-------------------------------------------\t\t\t"<<endl;
         cout<<cppfeatures<<cppfeatures1<<endl;
         system("pause");
         }

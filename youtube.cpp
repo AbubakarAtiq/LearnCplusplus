@@ -24,6 +24,9 @@ int main()
     // int a=404,b=404;
     // cout<<info<<endl;
     // system("time");
+    /*
+        Add exe of this cpp file to system variable paths
+    */
     system("echo AbuBakar Atiq PVT Limited");
     system("echo (c)All rights reserved. 2021");
     cout<<"Do you want to open Youtube?{Y|N}:";

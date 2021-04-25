@@ -37,20 +37,22 @@ int main()
         system("start www.youtube.com");
         system("pause");
     }
-    else if ((useryesorno=="Y")||(useryesorno=="y")) {
-        system("start www.youtube.com");
-        system("pause");
-    }
-    else if((useryesorno=="NO")||(useryesorno=="no"))
+    else if((useryesorno=="NO")||(useryesorno=="no")||(useryesorno=="N")||(useryesorno=="n"))
     {
         cout<<"\tAs you wish,program terminated"<<endl;
         system("pause");
     }
-    else if((useryesorno=="N")||(useryesorno=="n"))
+    string restart_yesorno;
+    cout<<"Do you want to restart the program{Y|N}:";
+    getline(cin,restart_yesorno);
+    if ((restart_yesorno=="YES")||(restart_yesorno=="yes")||(restart_yesorno=="Y")||(restart_yesorno=="y"))
     {
-        cout<<"\tAs you wish,program terminated"<<endl;
-        system("pause");
+        cout<<"\tProgram started again"<<endl;
+        main();
     }
-    main();
-
+    else if((restart_yesorno=="NO")||(restart_yesorno=="no")||(restart_yesorno=="N")||(restart_yesorno=="n"))
+    {
+        cout<<"\tProgram started again"<<endl;
+        main();
+    }
 } 

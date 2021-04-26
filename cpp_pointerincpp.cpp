@@ -9,6 +9,7 @@ int main()
     //data type
     int a=3;
     int *b=&a;
+    b=&a;
     /*
         star variable b, which hold the value of a,
         &--> (address of)operator,
@@ -19,5 +20,10 @@ int main()
     //*--->(value at) derefernce operator
     cout<<"The value at address b is "<<*b<<endl;
     //upload these to github
+    //pointer to pointer
+    int **c =&b;
+    cout<<"The address of b is,"<<&b<<endl;
+    cout<<"The address of b is,"<<c<<endl;
+    cout<<"The value at address c is "<<*c<<endl;
     return 0;
 }

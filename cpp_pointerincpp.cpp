@@ -16,7 +16,8 @@ int main()
     */
     cout<<"The address of a is"<<&a<<endl;
     cout<<"The address of a is"<<b<<endl;
-    cout<<b;//b is pointer
+    //*--->(value at) derefernce operator
+    cout<<"The value at address b is "<<*b<<endl;
     //upload these to github
     return 0;
 }

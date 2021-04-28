@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=ePJxpxsnkGw&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=13
+Above is the source of the material
+video number 13
+====================================================================
+    C++ tutorial:Arrays
+-->What are arrays in C++?
+1.An array is a collection of items of similar type stored in
+contiguous memory locations.
+2.Sometimes,a simple variable is not enough to hold all the data.
+3.For example, lets say we want to store the marks of 2500 students,
+having 2500 different variables for this task is not feasible.
+4.To solve this problem,we can define an array with size 2500 that
+can hold the marks of all students.
+for example,
+int marks[2500];//int array which will store data
+-->C++ pointers and arrays
+    continuous blocl of memory is called as array.
+-->pointer arithmetic:
+address_new=address_new+i*sizeof(data type)
+(p+i)=p+i*sizeof(data_type)
+e.g, 32+1*4=36

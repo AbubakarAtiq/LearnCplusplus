@@ -11,7 +11,7 @@ int main()
     double x;//store the value of coins enter
     double y=0.0002;
     double output;
-    cout<<"Remember 50coins are equal to 0.001Rs"<<endl;
+    cout<<"Remember 50coins are equal to 0.01Rs"<<endl;
     cout<<"Enter-number-of-coins-earned:";
     cin>>x;
         /*

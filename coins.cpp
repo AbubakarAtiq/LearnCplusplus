@@ -25,6 +25,7 @@ int main()
     output=x*y;
     cout<<"This is the amount you will receive, when you have these number of coins,"<<x<<endl;
     cout<<"This is the amount in Rs/coin:"<<output<<endl;
+    cout<<"==================================================="<<endl;
     main();
     return 0;
 }

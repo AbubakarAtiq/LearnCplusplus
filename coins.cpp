@@ -1,31 +1,32 @@
+#include <ios>
 #include<iostream>
-#include <stdlib.h>
-#include<windows.h>
+#include <iomanip>
+#include <ostream>
 #include<string>
 #include <system_error>
+#include <cmath>
 using namespace std;
 int main()
 {
     system("echo Welcome to snack video Rupee per coins calculator Program");
     system("echo Made by abubakar atiq-217-24481");
-    double x;//store the value of coins enter
+    double coins;//store the value of coins enter
     double y=0.0002;
     double output;
     cout<<"Remember 50coins are equal to 0.01Rs"<<endl;
     cout<<"Enter-number-of-coins-earned:";
-    cin>>x;
+    cin>>coins;
         /*
-            x=50->0.01Rs
-            x=100->0.02Rs
+            coins=50->0.01Rs
+            coins=100->0.02Rs
             50Coins=0.01Rs
             1coins=0.01Rs/50
             1coins=0.0002Rs
-            x-coins=x*0.0002Rs
+            coins-coins=coins*0.0002Rs
         */
-    output=x*y;
-    cout<<"This is the amount you will receive, when you have these number of coins,"<<x<<endl;
-    cout<<"This is the amount in Rs/coin:"<<output<<endl;
-    cout<<"===================================================\n===================================================\n===================================================\t\n===================================================\t\n===================================================\t\n===================================================\n===================================================\n===================================================\n==================================================="<<endl;
+    output=coins*y;
+    cout<<"Coins:"<<coins<<endl;
+    cout<<"Rupees earned:"<<output<<endl;
     main();
     return 0;
 }

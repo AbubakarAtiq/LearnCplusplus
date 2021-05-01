@@ -40,8 +40,13 @@ int main()
     enum example:unsigned char
     {
         a=5,b,t
+        //by default it will increase the value of the intergers
+        //of a=5, b=6,t=7
 
     };
+    enum example eg;
+    eg=b;
+    std::cout <<eg << std::endl;
     enum meal{breakfast,lunch,dinner };
     meal m=breakfast;
     cout<<m<<endl;

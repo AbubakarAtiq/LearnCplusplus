@@ -32,6 +32,16 @@ union money
 };
 int main()
 {
+    enum place
+    {
+        lahore,thokar,bolar
+
+    };
+    enum place P;
+    P=lahore;
+    cout<<P<<endl;
+    P=thokar;
+    cout<<P<<endl;
     /*
         enum is set of values.
         enumerations
@@ -65,4 +75,5 @@ int main()
     cout<<i.car<<endl;
     std::cout <<i.pounds << std::endl;
     return 0;
+    system("");
 }

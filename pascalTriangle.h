@@ -32,9 +32,9 @@ void InvertedPascalsTriangle(long n){
     // cin>>n;
    for(int i = n; i>=1; i--){
       for(int j = 0; j<n-i; j++)
-         cout <</*setw(3)*/" ";//printing space to show triangular form
+         cout <<" ";//printing space to show triangular form
       for(int j =(2-i);j<(2-i)+(2*i-1); j++)
-         cout <</*setw(3)*/nCr(i, j) <</*setw(3)*/" ";
+         cout <<nCr(i, j) <<setw(3)<<" ";
       cout << endl;
    }
 }

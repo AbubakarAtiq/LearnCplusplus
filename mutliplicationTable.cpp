@@ -10,12 +10,12 @@ int main(void){
 	int n;
     cout<<"Please Enter the table size:";cin>>n;
 	//prints the columns
-	printf("%4c X ",' ');
+	printf("%c x  |",' ');
 	for(i=1; i<=n; i++)
-	  printf("%4d |", i);
+	printf("%4d ", i);
+     
       cout<<endl;
 	  //printf("\n ");
-	
 	//Prints the Multiplication table
 	for(i=1; i<=n; i++)
 	  {   

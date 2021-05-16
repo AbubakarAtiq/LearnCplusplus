@@ -24,18 +24,29 @@
 #include<stdio.h>
 #include<iomanip>
 using namespace std;
+void spacebar(long n)
+{
+    for(int i=1;i<=n;i++)
+    {
+        cout<<"---";
+    }
 
+}
 int main(void){
 	
 	int i , j;
 	int n;
     cout<<"Please Enter the table size:";cin>>n;
 	//prints the columns
-	printf("%c x  |",' ');
+	spacebar(n);
+	printf("%4c x|",' ');spacebar(n);
+	cout<<endl;
+	spacebar(n);
 	for(i=1; i<=n; i++)
 	printf("%4d ", i);
-     
+		spacebar(n);
       cout<<endl;
+	  spacebar(n);
 	  //printf("\n ");
 	//Prints the Multiplication table
 	for(i=1; i<=n; i++)

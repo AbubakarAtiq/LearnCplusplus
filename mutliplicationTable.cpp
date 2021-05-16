@@ -28,7 +28,7 @@ void spacebar(long n)
 {
     for(int i=1;i<=n;i++)
     {
-        cout<<"---";
+        cout<<"-------";
     }
 
 }
@@ -38,15 +38,13 @@ int main(void){
 	int n;
     cout<<"Please Enter the table size:";cin>>n;
 	//prints the columns
-	spacebar(n);
-	printf("%4c x|",' ');spacebar(n);
-	cout<<endl;
-	spacebar(n);
+	printf("%4cx|",' ');
+	//cout<<endl;
 	for(i=1; i<=n; i++)
 	printf("%4d ", i);
-		spacebar(n);
+		cout<<"\n";
+	spacebar(n);
       cout<<endl;
-	  spacebar(n);
 	  //printf("\n ");
 	//Prints the Multiplication table
 	for(i=1; i<=n; i++)

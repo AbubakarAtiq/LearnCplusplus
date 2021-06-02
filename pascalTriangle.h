@@ -38,6 +38,4 @@ void InvertedPascalsTriangle(long n){
       cout << endl;
    }
 }
-
-
 };

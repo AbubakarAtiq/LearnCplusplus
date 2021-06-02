@@ -1,9 +1,40 @@
 #include <algorithm>
+#include <cmath>
 #include<iostream>
 #include <iomanip>
 using namespace std;
 int main()
 {
+    double m;
+    double a;
+    double b;
+    double c;
+    cout<<"Enter a range of all sides:";cin>>m;
+    a=m*m-1;
+    b=m+m;
+    c=m*m+1;
+    cout<<"So, the pythagorean triples are as follow:"<<endl;
+    cout<<"a side:"<<a<<endl;
+    cout<<"b side:"<<b<<endl;
+    cout<<"c side:"<<c<<endl;
+    //cout<<"Where square root of c side is:"<<sqrt(c*c)<<endl;
+    cout<<"Data is as follow"<<endl;
+    cout<<"a side"<<"\t"<<"b side"<<"\t"<<"c side"<<endl;
+    cout<<setw(4)<<a<<setw(7)<<b<<setw(9)<<c<<endl;
+    cout<<"\tThe total range is "<<m<<endl;
+    cout<<"Hypotenuse c is square root of a^2+b^2"<<endl;
+    c=sqrt(a*a+b*b);
+    cout<<"Hypotenuse c is "<<c<<endl;
+    //range is m
+    /*
+        a=m^2-1
+        b=2m
+        c=m^2+1
+        m is any natural number.
+        from this we will be able to find the pythagorean triple
+        then use it to find the hypotenuse
+    */
+ 
     // int side1 = 0;
     // int side2 = 0;
     // int Hypotenuse = 0;
@@ -35,20 +66,5 @@ int main()
 
     //         }
     //     }
-    // }
-    double range=0;
-    double a=0;
-    double b=0;
-    double c=0;
-    cout<<"Enter a range of all sides:";cin>>range;
-    //range is m
-    /*
-        a=m^2-1
-        b=2m
-        c=m^2+1
-        m is any natural number.
-        from this we will be able to find the pythagorean triple
-        then use it to find the hypotenuse
-    */
-    
+    // }   
 }

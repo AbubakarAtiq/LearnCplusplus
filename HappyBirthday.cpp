@@ -8,6 +8,9 @@ int main()
 {
     for(;;)
     {
+		string user;
+		cout << "enter your name";
+		getline(cin, user);
         system("color 02");
         cout<<"\t\tHappy Birthday:Hasan Bhai"<<endl;
         system("color 03");

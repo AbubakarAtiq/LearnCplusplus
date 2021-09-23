@@ -1,0 +1,6 @@
+Cosole App
+Dynamic-Link Library (DLL)
+Static Library
+Dynamic-Link Library with exports (DLL)
+Windows Desktop Application
+Windows Desktop Wizard

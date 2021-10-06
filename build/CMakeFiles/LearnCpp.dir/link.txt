@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libLearnCpp.a CMakeFiles/LearnCpp.dir/LearnCpp.cpp.obj
+C:\MinGW\bin\ranlib.exe libLearnCpp.a
